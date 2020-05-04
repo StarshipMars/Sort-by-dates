@@ -1,0 +1,688 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body::-webkit-scrollbar{
+    width: 0px;
+ }
+.main{
+    width: 100%;
+    background: #F0F6FC;
+    padding-top: 10px;
+}
+
+                                             /* start nav */
+.main nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+.main nav .title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.main nav .title .beta{
+    font-weight: normal;
+    font-size: 13px;
+}
+.main nav .nav-search{
+    display: flex;
+    flex-direction: row;
+}
+.main nav .nav-search .ring,
+.main nav .nav-search .list,
+.main nav .nav-search .loop,
+.main nav .nav-search .language{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main nav .nav-search .ring{
+    width: 43px;
+    height: 43px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 10px 40px rgba(213, 221, 230, 0.6); 
+}
+.main nav .nav-search .list{
+    width: 120px;
+    height: 43px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(213, 221, 230, 0.6);
+    border-radius: 100px;
+    margin-left: 17px;
+}
+.main nav .nav-search .list img{
+    margin-left: 15px;
+}
+.main nav .nav-search .loop{
+    width: 43px;
+    height: 43px;
+    background: rgba(203, 215, 228, 0.4);
+    border-radius: 50%;
+    margin-left: 17px;
+}
+.main nav .nav-search .language{
+    width: 64px;
+    height: 43px;
+    background: rgba(203, 215, 228, 0.4);
+    border-radius: 100px;
+    margin-left: 17px;
+}
+.main nav .nav-search .language img{
+    margin-left: 8px;
+}
+                                             /* end nav */
+
+.main .box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-top: 48px;
+}
+.main .box .block1,
+.main .box .block2{
+   display: flex;
+   flex-direction: column;
+}
+
+                                            /* start user sections */
+.main .box .block1{
+    align-items: flex-start;
+}
+.main .box .block1 .expert{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 236px;
+    height: 54px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(128, 158, 191, 0.2);
+    border-radius: 10px;
+}
+.main .box .block1 .expert span{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 67px;
+    color: #2B2B2B;
+}
+.main .box .block1 .expert label{
+    position: absolute;
+    width: 59px;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    border: none;
+    background-color: rgb(245, 243, 243);
+    background-image: url(../images/expert.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.main .box .block1 .menu{
+    background-color: #fff;
+    box-shadow: 0px 10px 40px rgba(128, 158, 191, 0.2);
+    border-radius: 10px;
+    padding: 9px;
+    margin-top: 11px;
+}
+.main .box .block1 .menu li{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 158px;
+    height: 85px;
+    background: #FFFFFF;
+    border: 1px solid #E7ECF1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+.main .box .block1 .menu li:last-child{
+    margin-bottom: 0px;
+}
+.main .box .block1 .menu li:nth-child(3){
+    border: 1px solid #FF7439;
+}
+.main .box .block1 .menu li:nth-child(3) span{
+    color: #FF7439;
+}
+.main .box .block1 .menu li span{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+                                               /* end user sections */
+
+                                            /* start user list */
+.main .box .cover{
+    padding-right: 220px;
+    overflow: auto;
+    height: 1000px;
+}
+.main .box .block2{
+   margin-left: 104px;
+}
+
+
+/* start Filters section */
+.main .box .block2 .filter{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+    width: 1269px;  
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.main .box .block2 .filter .cover_filter-options,
+.main .box .block2 .filter .filter-options,
+.main .box .block2 .filter .buttons,
+.main .box .block2 .filter .filter-options .time-frames,
+.main .box .block2 .filter .filter-options .filter-frames,
+.main .box .block2 .filter .filter-options .time-frames label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.main .box .block2 .filter .cover_filter-options{
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 35px;
+    padding-top: 34px;
+    padding-bottom: 31px;
+}
+.main .box .block2 .filter hr{
+    margin-top: 1px;
+    margin-bottom: 0px;
+    width: 1209px;
+    height: 1px;
+    margin-left: 35px;
+    margin-right: 25px;
+    background: #E7ECF1;
+}
+
+.main .box .block2 .filter .filter-options .filter-option img{
+    margin-right: 20px;
+}
+.main .box .block2 .filter .filter-options .filter-option span,
+.main .box .block2 .filter .filter-options .filter-option label input{
+    margin-right: 7px;
+}
+.main .box .block2 .filter .filter-options .filter-option label input{
+    margin-left: 42px;
+}
+.main .box .block2 .filter .filter-options .time-frames{
+    margin-right: 44px;
+    padding-top: 8px;
+}
+.main .box .block2 .filter .filter-options .time-frames label{
+    background: url(../images/calendar.svg) no-repeat top 0 left 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+/*.main .box .block2 .filter .filter-options .time-frames label:hover{
+    background: url(images/calendar_2.svg) no-repeat top 0 left 0;
+}*/
+
+.main .box .block2 .filter .filter-options .time-frames label #date{
+    width: 70px;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/*.main .box .block2 .filter .filter-options .time-frames label:hover #date{
+    color: #FF7439;
+}*/
+.main .box .block2 .filter .filter-options .time-frames .change-icons{
+    align-self: center;
+    margin-top: -5px;
+}
+.main .box .block2 .filter .filter-options .time-frames img{
+    position: absolute;
+}
+.main .box .block2 .filter .filter-options .time-frames img:nth-child(1){
+    opacity: 1;
+    transition: 0.5s;
+}
+/*.main .box .block2 .filter .filter-options .time-frames label:hover img:nth-child(1){
+    opacity: 0;
+}*/
+
+.main .box .block2 .filter .filter-options .time-frames img:nth-child(2){
+    opacity: 0;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+/*.main .box .block2 .filter .filter-options .time-frames label:hover img:nth-child(2){
+    opacity: 1;
+    transform: rotateX(180deg);
+}*/
+
+
+.main .box .block2 .filter .buttons .unload{
+    width: 120px;
+    height: 45px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #fff;
+    font-size: 14px;
+    
+}
+.main .box .block2 .filter .buttons .unload:hover,
+.main .box .block2 .filter .buttons .add:hover{
+    cursor: pointer;
+}
+.main .box .block2 .filter .buttons .unload,
+.main .box .block2 .filter .buttons .add{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.main .box .block2 .filter .buttons .add{
+    width: 199px;
+    height: 45px;
+    margin-left: 11px;
+    margin-right: 21px; 
+    background: #FF7439;
+    border-radius: 7px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.main .box .block2 .filter .alt-field{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 0px;
+    height: 0px;
+    background: #586375;
+    border-radius: 100px;
+    margin-left: 35px;
+    transform: scale(0);
+    transition: 0.2s;
+}
+
+.shown{
+    width: 223px!important;
+    height: 41px!important;
+    transform: scale(1)!important;
+    margin-bottom: 13px;
+    margin-top: 5px;
+}
+
+.main .box .block2 .filter .alt-field .date-field{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.main .box .block2 .filter .alt-field .close-selected-date{
+    position: relative;
+    margin-top: 5px;
+    margin-right: 3px;
+    margin-left: 7px;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background: #677489;
+    cursor: pointer;
+}
+
+.main .box .block2 .filter .alt-field .close-selected-date::before,
+.main .box .block2 .filter .alt-field .close-selected-date::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    top: 12px;
+    left: 8.5px;
+    background-color: #464F5E;
+}
+
+.main .box .block2 .filter .alt-field .close-selected-date::before{
+    transform: rotate(45deg);
+}
+.main .box .block2 .filter .alt-field .close-selected-date::after{
+    transform: rotate(-45deg);
+}
+/* end Filters section */
+
+/* start main headlines and users */
+.main .box .block2 .users-block{
+    width: 1269px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 10px;
+}
+/* start headlines */
+.main .box .block2 .users-block .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E7ECF1;
+}
+.main .box .block2 .check{
+    width: 26px;
+    height: 26px;
+    border: 2px solid rgba(131, 142, 157, 0.3);
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: 38px;
+}
+.main .box .block2 .check:hover{
+    cursor: pointer;
+}
+.main .box .block2 .user{
+    margin-right: 100px;
+}
+.main .box .block2 .registration{
+    margin-right: 43px;
+}
+.main .box .block2 .last-activity{
+    margin-right: 36px;
+}
+.main .box .block2 .last-move{
+    margin-right: 52px;
+}
+.main .box .block2 .good{
+    margin-right: 148px;
+}
+.main .box .block2 .column-title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+}
+.main .box .block2 .users-block .header .show-block{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+.main .box .block2 .users-block .header .show-block .show{
+    margin-right: 11px;
+}
+.main .box .block2 .users-block .header .show-block .quantity{
+    margin-right: 11px;
+}
+/* end headlines */
+
+
+/* start users */
+.main .box .block2 .users-block .users{
+    padding-top: 21px;
+    margin-left: 32px;
+}
+.main .box .block2 .users-block .users .user-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+}
+.main .box .block2 .users-block .users .user-item .user-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px;
+    padding-left: 16px;
+    padding-right: 21px;
+    margin-left: -9px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 40px;
+    transition: 0.5s;
+}
+
+.main .box .block2 .users-block .users .user-item .user-info:hover{
+    border: 2px solid #EBEEF3;
+}
+
+.main .box .block2 .users-block .users .user-item .user-info .item{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.main .box .block2 .users-block .users .user-item .user-info .item .user-web{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+}
+.main .box .block2 .users-block .users .user-item .user-info .date-registration{
+    width: 137px;
+    margin-right: 38px;
+}
+.main .box .block2 .users-block .users .user-item .user-info .date-of-last_activity{
+    width: 137px;
+    margin-right: 60px;
+}
+.main .box .block2 .users-block .users .user-item .user-info .item-of-last-move{
+    width: 168px;
+    margin-right: 45px;
+}
+.main .box .block2 .users-block .users .user-item .user-info .good{
+    width: 168px;
+}
+.main .box .block2 .users-block .users .edit-remove img.edit:hover,
+.main .box .block2 .users-block .users .edit-remove img.remove:hover{
+    cursor: pointer;
+}
+
+.main .box .block2 .users-block .users .edit-remove img:nth-child(1){
+    margin-right: 25px;
+}
+/*end users*/
+
+.cover::-webkit-scrollbar{
+   width: 7px;
+}
+.cover::-webkit-scrollbar-track{
+   background: #E4EDF5;
+   border-radius: 100px;
+}
+.cover::-webkit-scrollbar-thumb{
+    width: 5px;
+    border: 1px solid #E4EDF5;
+    background: #8799AB;
+    border-radius: 150px;  
+}
+/* end main headlines and users */
+
+                                        /* end user list */
+
+                                        /* Daterangepicker*/
+.daterangepicker{
+    margin-top: 14px;
+    margin-left: -70px;  
+}
+
+.daterangepicker .ranges ul{
+    width: 176px;
+    height: 321px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(128, 158, 191, 0.2);
+    border-radius: 10px;
+}
+.daterangepicker .ranges{
+    padding-top: 5px;
+}
+.daterangepicker .ranges ul li{
+    width: 156px;
+    height: 39px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin-left: 10px;
+}
+
+.daterangepicker .ranges ul li:hover{
+    border: 2px solid #EBEEF3;
+    background-color: #fff;
+}
+.daterangepicker .ranges ul li.active{
+    background: #F0F3F8;
+    color: #000;
+}
+                                        /* Daterangepicker */
+
+                                        /* Datepicker */
+
+.ui-datepicker{
+    margin-top: 15px;
+    margin-left: 110px;
+}
+.ui-datepicker .ui-datepicker-header{
+    padding-bottom: 14px;
+    background-color: #fff;
+    border: none;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+    background-image: url(../images/ui-icons_444444_256x240.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.ui-datepicker .ui-datepicker-prev span{
+  transform: rotate(-90deg) scale(1.3) translateY(-2px);
+}
+.ui-datepicker .ui-datepicker-next span{
+    transform: rotate(90deg) scale(1.3) translateY(-2px) translateX(1px);
+}
+.ui-datepicker .ui-datepicker-calendar{
+    background-color: #F3F8FD;
+}
+.ui-datepicker .ui-state-hover{
+    background-color: #DFE9F3;
+}
+.ui-datepicker .ui-state-default{
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+}
+
+.ui-datepicker .selected{
+    background: rgba(255, 116, 57, 0.2);
+    color: #000;
+}
+.ui-datepicker .selected a{
+    background: rgba(255, 116, 57, 0);
+    color: #000;
+}
+
+
+.ui-datepicker .selected.selected-start{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.ui-datepicker .selected.selected-end{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;  
+}
+.ui-datepicker .selected.selected-start a,
+.ui-datepicker .selected.selected-end a{
+    background: #FF7439;
+    color: #fff;
+}
+
+.ui-datepicker .ui-datepicker-today a{
+    background: rgb(241, 211, 74);
+    color: #fff;
+}
+.ui-datepicker .ui-datepicker-buttonpane{
+    border: none;
+}
+.ui-datepicker .ui-datepicker-current{
+    width: 130px;
+    height: 40px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    background: #fff;
+    color: #000000;
+    transition: 0.5s;
+}
+.ui-datepicker .ui-datepicker-current:hover{
+    background: #000000;
+    color: #fff;
+}
+.ui-datepicker .ui-datepicker-close{
+    width: 130px;
+    height: 40px;
+    background: rgba(255, 116, 57, 0.5);
+    border-radius: 7px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    transition: 0.5s;
+}
+.ui-datepicker .ui-datepicker-close:hover{
+    background: #F16E36;
+}
+                                           /* Datepicker */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

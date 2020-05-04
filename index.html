@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/daterangepicker.css">
+    <link rel="stylesheet" href="styles/jquery-ui.css">
+    <link rel="stylesheet" href="styles/jquery-ui.structure.css">
+    <link rel="stylesheet" href="styles/jquery-ui.theme.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+
+
+    <div class="main">
+
+<!-- Start Navigation -->
+        <nav>
+            <h1 class="title">OJOWO <span class="beta">Beta</span></h1>
+            <div class="nav-search">
+                <article class="ring"><img src="images/ring.svg" alt=""></article>
+                <article class="list">Артем <img src="images/list-sign.svg" alt=""></article>
+                <article class="loop"><img src="images/loop.svg" alt=""></article>
+                <article class="language">Ru <img src="images/list-sign.svg" alt=""></article>
+            </div>
+        </nav>
+<!-- End Navigation -->
+
+
+                                   <!-- Start Main content -->
+
+        <section class="box">
+
+                                    <!-- Start User sections -->
+          
+            <div class="block1">
+
+               <div class="expert">
+                 <span>Эксперт</span> <img src="images/list-sign.svg" alt=""><label></label>
+               </div>
+
+               <ul class="menu">
+                  <li>
+                      <img src="images/chart.svg" alt=""><span>Аналитика</span>
+                 </li>
+                  <li>
+                     <img src="images/puzzle.svg" alt=""><span>Продукт</span>
+                  </li>
+                  <li>
+                    <img src="images/users.svg" alt=""><span>Пользователи</span>
+                  </li>
+                  <li>
+                    <img src="images/constructor.svg" alt=""><span>Конструктор сайта</span>
+                  </li>
+                  <li>
+                    <img src="images/stream.svg" alt=""><span>Трансляции</span>
+                  </li>
+                  <li>
+                    <img src="images/send.svg" alt=""><span>Рассылка</span>
+                  </li>
+                  <li>
+                    <img src="images/marketing.svg" alt=""><span>Маркетинг</span>
+                  </li>
+                  <li>
+                    <img src="images/payments.svg" alt=""><span>Платежи</span>
+                  </li>
+                  <li>
+                    <img src="images/settings.svg" alt=""><span>Настройки</span>
+                  </li>
+               </ul>
+            </div>
+
+                                      <!-- End User sections -->
+
+                                      <!-- Start User list -->
+          
+          <div class="cover">
+            <div class="block2">
+
+                                       <!-- Start Filters section -->
+               <div class="filter">
+
+                  <div class="cover_filter-options">
+                        <section class="filter-options">
+                          
+                          <div id="picker" class="time-frames filter-option">
+                            <label for="date" class="for-date">
+                                <input type="text" value="За 1 день" id="date">
+                                <div class="change-icons">
+                                  <img class="list-sign1" src="images/list-sign.svg" alt="" >
+                                  <img class="list-sign2" src="images/list-sign_2.svg" alt="" >
+                                </div>
+                            </label>
+                          </div>
+
+                          <div class="filter-frames filter-option">
+                                <img src="images/filter.svg" alt="">
+                                <span class="for-filter">Фильтр</span>
+                                <img src="images/list-sign.svg" alt="">
+                          </div>
+                        </section>
+
+                        <section class="buttons">
+                              <button class="unload">Выгрузить</button>
+                              <button class="add">Добавить контакты</button>
+                        </section>
+                  </div>
+
+                  <hr>
+
+                 <div class="alt-field">
+                        <span class="date-field">111</span>
+                        <label class="close-selected-date"></label>
+                 </div>
+
+               </div>
+
+                                     <!-- End Filters section -->
+                                     
+                                     <!-- Start main headlines and users-->
+               <div class="users-block">
+                    
+                    <!-- Start headlines -->
+                   <div class="header">
+                       <label class="check column-title"></label>
+                       <span class="user column-title">Пользователь</span>
+                       <span class="registration column-title">Дата регистрации</span>
+                       <span class="last-activity column-title">Последняя активность</span>
+                       <span class="last-move column-title">Последнее действие</span>
+                       <span class="good column-title">Продукт</span>
+
+                       <div class="show-block">
+                          <span class="show">Отобразить</span>
+                          <span class="quantity">0</span>
+                          <img src="images/list-sign.svg" alt="">
+                       </div>
+                   </div>
+                   <!-- End headlines -->
+                    
+                   <!-- Start users -->
+                   <div class="users">
+
+                     
+                   </div>
+                   <!-- End users -->
+               </div>
+
+                                     <!-- End main headlines and users-->
+            </div>
+          </div>
+
+                                               <!-- End User list -->
+        </section>
+                                               <!-- End Main content -->
+
+    </div>
+
+
+    
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="scripts/jquery-ui.js"></script>
+    <script src="scripts/jquery.datepicker.extension.range.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="scripts/moment.min.js"></script>
+    <script src="scripts/daterangepicker.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
