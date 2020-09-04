@@ -1,5 +1,5 @@
 {
-    "users" = [
+    "users" : [
     {
       "user_name": "User1",
       "user_web" : "user@user.com",
