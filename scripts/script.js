@@ -22,16 +22,16 @@ document.addEventListener("DOMContentLoaded", function(){
         {
           "user_name": "User3",
           "user_web" : "user@user.com",
-          "registration": "2020-02-30T01:30:00.000-05:00",
-          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "registration": "2020-08-15T01:30:00.000-05:00",
+          "last_activity": "2020-08-30T01:30:00.000-05:00",
           "last_move": "view_landing_course1",
           "good": "Как наладить отношения"
         },
         {
           "user_name": "User4",
           "user_web" : "user@user.com",
-          "registration": "2020-02-30T01:30:00.000-05:00",
-          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "registration": "2020-08-11T01:30:00.000-05:00",
+          "last_activity": "2020-08-30T01:30:00.000-05:00",
           "last_move": "view_landing_course1",
           "good": "Как наладить отношения"
         },
@@ -46,16 +46,16 @@ document.addEventListener("DOMContentLoaded", function(){
         {
           "user_name": "User6",
           "user_web" : "user@user.com",
-          "registration": "2020-02-30T01:30:00.000-05:00",
-          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "registration": "2020-07-15T01:30:00.000-05:00",
+          "last_activity": "2020-08-30T01:30:00.000-05:00",
           "last_move": "view_landing_course1",
           "good": "Как наладить отношения"
         },
         {
           "user_name": "User7",
           "user_web" : "user@user.com",
-          "registration": "2020-02-30T01:30:00.000-05:00",
-          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "registration": "2020-05-14T01:30:00.000-05:00",
+          "last_activity": "2020-08-30T01:30:00.000-05:00",
           "last_move": "view_landing_course1",
           "good": "Как наладить отношения"
         },
@@ -70,8 +70,8 @@ document.addEventListener("DOMContentLoaded", function(){
         {
           "user_name": "User9",
           "user_web" : "user@user.com",
-          "registration": "2020-02-30T01:30:00.000-05:00",
-          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "registration": "2020-07-30T01:30:00.000-05:00",
+          "last_activity": "2020-09-01T01:30:00.000-05:00",
           "last_move": "view_landing_course1",
           "good": "Как наладить отношения"
         },
