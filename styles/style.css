@@ -568,7 +568,7 @@ body::-webkit-scrollbar{
 .ui-datepicker{
     margin-top: 15px;
     margin-left: 110px;
-    padding-bottom: 30px;
+    height: 321px;
 }
 .ui-datepicker .ui-datepicker-header{
     padding-bottom: 14px;
