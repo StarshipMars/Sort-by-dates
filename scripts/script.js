@@ -2,7 +2,160 @@
 
 
 document.addEventListener("DOMContentLoaded", function(){
-
+     let lists =  [
+        {
+          "user_name": "User1",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-10T01:30:00.000-05:00",
+          "last_activity": "2020-02-10T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User2",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User3",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User4",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User5",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User6",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User7",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User8",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User9",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User10",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User11",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User12",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User13",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User14",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User15",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User16",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User17",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User18",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        },
+        {
+          "user_name": "User19",
+          "user_web" : "user@user.com",
+          "registration": "2020-02-30T01:30:00.000-05:00",
+          "last_activity": "2020-02-30T01:30:00.000-05:00",
+          "last_move": "view_landing_course1",
+          "good": "Как наладить отношения"
+        }
+          ]; 
      let usersField = document.querySelector(".users");
      let usersItems = [];
      unLoading();
@@ -11,12 +164,16 @@ document.addEventListener("DOMContentLoaded", function(){
        // Server request simulation
 
     function unLoading(){
-        fetch('http://localhost:3000/users').then((response)=>{
-            return response.json()
-        }).then((response)=>{
+         
+        //здесь должен быть запрос с сервера
+        
+        /*   fetch('http://localhost:3000/users').then((response)=>{
+                  return response.json()
+             }).then((response)=>{})     */   
+         
             let str = ``;
 
-            for(let elem of response){
+            for(let elem of lists){
                 let date = new Date(elem.registration);
                 let day = date.getDate();
                 day = day < 10 ? "0" + day : day;
@@ -47,9 +204,7 @@ document.addEventListener("DOMContentLoaded", function(){
                  usersItems.push(userItem)
                  str += userItem;
             }
-            usersField.innerHTML = str;
-        })
-        
+            usersField.innerHTML = str;  
     }
     // Server request simulation
 
